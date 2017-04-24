@@ -30,5 +30,10 @@
 }
 
 　	
-#timer {font-size:16pt; color:#ff00ff; font-family : "HG丸ｺﾞｼｯｸM-PRO",
- 　"MS UI Gothic"}
+#timer {
+	width:10em;
+	height:5em;
+	font-size:16pt;
+	color:#ff00ff;
+	font-family : "HG丸ｺﾞｼｯｸM-PRO","MS UI Gothic"
+}
