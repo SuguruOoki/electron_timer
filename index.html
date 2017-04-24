@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>カウントダウンタイマー</title>
+  <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<form name="timer" id="timer">
+  <input type="text" value="">：
+  <input type="text" value=""><br>
+  <input type="button" value="10分" onclick="Set10minites()" class="btn">
+  <input type="button" value="1分" onclick="Set1minite()" class="btn">
+  <input type="button" value="10秒" onclick="Set10seconds()" class="btn">
+  <input type="button" value="1秒" onclick="Set1second()" class="btn"><br>
+  <input type="button" value="スタート" onclick="cntStart()" class="btn" id="start">
+  <input type="button" value="ストップ" onclick="cntStop()" class="btn" id="stop">
+  <input type="button" value="リセット" onclick="Reset()" class="btn" id="reset">
+  <input type="button" value="0に戻す" onclick="ResetZero()" class="btn" id="zero">
+</form>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+<script>
+require('./renderer.js')
+</script>
+</html>
