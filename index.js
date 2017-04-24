@@ -163,8 +163,9 @@ function tmWrite(int)
   
   if (int<=0)
   {
-    reSet();
-    alert("時間です！");
+    Reset();
+    //alert("時間です！");
+    var n = new Notification("時間です！");
   }
   else
   {

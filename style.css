@@ -30,10 +30,10 @@
 }
 
 　	
-.time {
-	width:10em;
-	height:5em;
-	font-size:16pt;
+input.time {
+	width:40em;
+	height:30em;
+	font-size:100%;
 	color:#ff00ff;
-	font-family : "HG丸ｺﾞｼｯｸM-PRO","MS UI Gothic"
+	font-family : "HG丸ｺﾞｼｯｸM-PRO","MS UI Gothic";
 }
