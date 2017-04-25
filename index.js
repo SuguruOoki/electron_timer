@@ -133,11 +133,12 @@ function Set1second()
   countdownflag = "0";
 }
 
+var timerset = document.timer;
 //カウントダウン関数
 function countDown()
 {
-  var min=document.timer.elements[0].value;
-  var sec=document.timer.elements[1].value;
+  var min=timerset.elements[0].value;
+  var sec=timerset.elements[1].value;
 
   if( (min=="") && (sec=="") )
   {

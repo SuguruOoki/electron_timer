@@ -7,7 +7,7 @@ if (window.Notification) {
 
     // 許可されている場合はNotificationで通知
     alert('通知許可されています');
-    var n = new Notification("Hello World");
+    //var n = new Notification("Hello World");
 
   } else if (Notification.permission === 'denied') {
 
@@ -30,7 +30,7 @@ if (window.Notification) {
       } else if (result === 'granted') {
 
         alert('リクエスト結果：通知許可されました！！');
-        var n = new Notification("Hello World");
+        //var n = new Notification("Hello World");
       }
     })
   }

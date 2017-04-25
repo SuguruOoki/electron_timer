@@ -17,8 +17,16 @@
   <input type="button" value="リセット" onclick="Reset()" class="btn" id="reset">
   <input type="button" value="0に戻す" onclick="ResetZero()" class="btn" id="zero">
 </form>
+
+<audio src="/Users/suguruoki/Music/04 蜜（変換済み）.mov" preload="auto" loop></audio>
 <script type="text/javascript" src="./index.js"></script>
 <script type="text/javascript" src="./notification.js"></script>
+<script src="./audiojs/audiojs/audio.min.js"></script>
+<script>
+    audiojs.events.ready(function() {
+       audiojs.createAll();
+    });
+</script>
 </body>
 <script>
 require('./renderer.js')
